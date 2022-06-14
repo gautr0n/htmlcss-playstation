@@ -8,6 +8,7 @@
 
 /*utilities*/
 :root{
+    --gray: #737373;
 }
 
 .margin-bt{
@@ -15,7 +16,18 @@
 }
 
 /*header*/
+header{
+    position: relative;
+}
+
 .sony-logo{
     height: 30px;
+    padding: 5px 10px;
+}
+
+.bars-icon{
+    font-size: 20px;
+    color: var(--gray);
+    border: lightgrey 1px solid;
     padding: 5px 10px;
 }
