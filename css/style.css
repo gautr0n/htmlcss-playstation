@@ -37,5 +37,6 @@ main{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: top;
+    background-size: cover;
     min-height: 600px;
 }
