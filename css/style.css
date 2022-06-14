@@ -15,9 +15,14 @@
     margin-bottom: 20px;
 }
 
+.button{
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
 /*header*/
 header{
-    position: relative;
+    position: fixed;
 }
 
 .sony-logo{
@@ -26,8 +31,19 @@ header{
 }
 
 .bars-icon{
-    font-size: 20px;
     color: var(--gray);
     border: lightgrey 1px solid;
-    padding: 5px 10px;
+    padding: 10px 10px;
+}
+
+/*main*/
+main{
+    padding-top: 96px;
+}
+
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 600px;
 }
