@@ -3,6 +3,8 @@
     --gray: #737373;
     --blue: #2D64E6;
     --darkgray: #1F1F1F;
+    --dust: #BEBCBB;
+    --plus-btn: #D9DADC;
 }
 
 .margin-bt{
@@ -69,4 +71,14 @@ main{
 
 .nu-bg{
     background-color: var(--darkgray);
+}
+
+.bg-dust{
+    background-color: var(--dust);
+}
+
+.plus-button{
+    background-color: var(--plus-btn);
+    color: var(--blue);
+    font-weight: bold;
 }
