@@ -5,6 +5,7 @@
     --darkgray: #1F1F1F;
     --dust: #BEBCBB;
     --plus-btn: #D9DADC;
+    --darkblue: #161C3B;
 }
 
 .margin-bt{
@@ -81,4 +82,8 @@ main{
     background-color: var(--plus-btn);
     color: var(--blue);
     font-weight: bold;
+}
+
+.bg-now{
+    background-color: var(--darkblue);
 }
