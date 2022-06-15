@@ -6,6 +6,7 @@
     --dust: #BEBCBB;
     --plus-btn: #D9DADC;
     --darkblue: #161C3B;
+    --footerblue: #00439C;
 }
 
 .margin-bt{
@@ -86,4 +87,19 @@ main{
 
 .bg-now{
     background-color: var(--darkblue);
+}
+
+/*footer*/
+
+footer{
+    background-color: var(--footerblue);
+}
+
+.footer-logo{
+    height: 25px;
+    opacity: 1;
+}
+
+.list-none{
+    list-style-type: none;
 }
