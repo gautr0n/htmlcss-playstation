@@ -33,10 +33,17 @@ main{
     padding-top: 96px;
 }
 
-.jumbotron{
+#main-jumbotron{
     background-image: url(../img/jumbo-bg.png);
+}
+
+.jumbotron{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    min-height: 600px;
+    height: 600px;
+}
+
+.jumbo-padd{
+    padding-top: 250px;
 }
