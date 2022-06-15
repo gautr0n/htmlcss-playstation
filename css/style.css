@@ -1,6 +1,8 @@
 /*utilities*/
 :root{
     --gray: #737373;
+    --blue: #2D64E6;
+    --darkgray: #1F1F1F;
 }
 
 .margin-bt{
@@ -15,6 +17,7 @@
 /*header*/
 header{
     position: fixed;
+    z-index: 1;
 }
 
 .sony-logo{
@@ -37,6 +40,10 @@ main{
     background-image: url(../img/jumbo-bg.png);
 }
 
+#second-jumbotron{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 .jumbotron{
     background-repeat: no-repeat;
     background-position: top;
@@ -46,4 +53,16 @@ main{
 
 .jumbo-padd{
     padding-top: 250px;
+}
+
+.psfive-button{
+    background-color: var(--blue);
+}
+
+.psfive-gadget{
+    opacity: 0.6;
+}
+
+.nu-bg{
+    background-color: var(--darkgray);
 }
